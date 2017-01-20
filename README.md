@@ -1,9 +1,9 @@
 ## Welcome to Prototyping Interactions
 
-This site will serve as the course reference for the Institute of Design's 
+This site will serve as the course reference for the Institute of Design's Prototyping Interactions course. Use these as notes in class, and outside of class for review.
 
 
-### Markdown
+### Standing Up a Server
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
