@@ -1,3 +1,7 @@
+###Week 1: Introduction to the Bash Shell
+
+-----
+
 If you visit the IP address associated with your instance, your web browser will report an error, as we have yet to install and setup web server software on the machine.
 
 We'll need to access the machine to do so, and that requires a trip to your computer's terminal and an understanding of how we can interact with machines with text.
