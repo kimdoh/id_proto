@@ -172,13 +172,27 @@ ohayo gozaimasu zakkun
 
 You can `cd ..` to move up in the directory structure to exit the `testing` folder and go back to the desktop.
 
+Use `pwd` to see that we are still in our `testing folder`
+
 `pwd`
 
 `/Users/zach/Desktop/testing`
 
+Then `cd` back up to the desktop.
 
 `cd ..`
 
 `pwd`
 
 `/Users/zach/Desktop/`
+
+You can also use the `~` character to represent the home folder at any moment.
+
+`cd ~`
+
+`pwd`
+
+`/Users/zach/`
+
+
+
