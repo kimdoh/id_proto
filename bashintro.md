@@ -39,7 +39,7 @@ which returns something like
 
 `pwd` stands for 'print working directory,' and returns where your Bash shell is currently located in your computer's filesystem. Your Bash shell opens into your user home directory, which is often represented in Bash by the `~` (tilda) character.
 
-We can see what is in the current directory.
+We can see what is in the current directory with `ls`.
 
 `ls`
 
@@ -53,3 +53,14 @@ Movies
 Music
 Pictures
 ```
+
+We can also maneuver around the file system `cd`.
+
+`cd Applications`
+
+Typing the first few letters of where you want to go is usually enough, as the `tab` key will autocomplete. Note that Bash is case-sensitive.
+
+`cd Ap` will autocomplete to `cd Applications` if you hit `tab`.
+
+
+ 
