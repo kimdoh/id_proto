@@ -130,6 +130,47 @@ Use `ls` to ensure it is removed. Note that files are *removed immediately*, no 
 
 -----
 
+Create a file with `touch` and make a new directory with `mkdir`.
+
+`touch contents.txt`
+
+`mkdir container`
+
+Let's check what our working directory looks like.
+
+`ls`
+
+```
+container
+contents.txt
+```
+
+Use `mv` to move a file or directory. `mv` takes two arguments: a source object to move, and a path for its new position. Note the trailing forward slash indicating that we want the file to be placed *inside* of the target directory.
+
+`mv contents.txt container/`
+
+`ls`
+
+`container`
+
+You can pass `ls` a path to see the contents of the path.
+
+`ls container/`
+
+`contents.txt`
+
+`contents.txt` has been moved inside of container.
+
+`mv` can also be used to rename files.
+
+`mv container/contents.txt container/example.txt`
+
+`ls container/`
+
+`example.txt`
+
+-----
+
 Use the `>` character to redirect output. 
 
 `echo 'hello zach' > greetings.txt`
@@ -197,6 +238,4 @@ You can also use the `~` character to represent the home folder at any moment.
 `pwd`
 
 `/Users/zach/`
-
-
 
