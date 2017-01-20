@@ -15,4 +15,4 @@ A new [IP address](https://en.wikipedia.org/wiki/IP_address), in the form ###.##
 - Under `Instance` select the long alphanumeric string that represents your EC2 virtual server.
 - Click `Associate`
 
-
+Now that our server is reachable at that IP address, we can [prepare an identity file](identityfile.md) for connecting our server.
