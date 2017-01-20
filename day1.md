@@ -25,6 +25,21 @@ Servers tend to use Linux or Windows as their operating system, though Mac serve
 - Select `t2.micro` Instance Size, which is tagged `free tier eligible`
 - Click `Next` a few times, to get to the `Step 6: Configure Security Group` 
 - On this screen, we can set how our server can be accessed securely. `Add Rule` to allow this server access for `HTTP` and `HTTPS` and ensure the `Source` is set to `Anywhere`.
+- Click `Review and Launch`
+
+You will get a warning about security on the review screen. Don't worry, we'll lock things down in the next step.
+
+- Click `Launch`
+
+A popup will ask you to create a new key pair. This is a file that will allow access to your 
+
+- In the first dropdown menu, select `Create a new key pair`
+- Name your keypair file and `Download` it.
+
+After a short delay during which Amazon is creating and configuring your virtual server, your machine will boot up for the first time.
+
+
+
 
 
 
