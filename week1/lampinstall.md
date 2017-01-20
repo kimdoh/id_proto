@@ -2,7 +2,7 @@
 
 -----
 
-Now, with terminal access to the server, it is important to do some basic configuration.
+Now, with [terminal access to the server](serveraccess.md), it is important to do some basic configuration.
 
 The `sudo` command will be used frequently from here on. `sudo` abbreviated from 'substitute user and do,' elevates your terminal so that your command can access files beyond your user account. This is necessary, as the following steps change system-level files on your server.
 
@@ -29,5 +29,5 @@ All of these will find a use over the coming weeks.
 
 -----
 
-If you now put your server's IP address into your web browser, you should see the Apache welcome. Our web server is now serving a website. 
+If you now put your server's IP address into your web browser, you should see the Apache welcome. Our web server is now serving a website. [Pages can now be added](addpage.md) and served to the world.
 
