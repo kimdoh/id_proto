@@ -45,7 +45,7 @@ which returns something like
 
 -----
 
-We can see what is in the current directory with `ls`.
+We can see what is in the current working directory with `ls`.
 
 `ls`
 
@@ -72,7 +72,7 @@ Typing the first few letters of where you want to go is usually enough, as the `
 
 Your prompt will update.
 
-`ComputerName:Applications user$` 
+`ComputerName:Desktop user$` 
 
 And then you can see the contents of your [presumably messy] Desktop with `ls`.
 
@@ -84,3 +84,45 @@ Untitled1_REALLY_FINAL.ai
 Untitled3.ai
 ```
 
+-----
+
+We can make a folder in the working directory with `mkdir`.
+
+`mkdir testing`
+
+We can see the results with
+
+`ls`
+
+```
+testing
+Untitled1.ai
+Untitled1_Final.ai
+Untitled1_Final_FINAL.ai
+Untitled1_REALLY_FINAL.ai
+Untitled3.ai
+```
+
+-----
+
+Change your working directory into this newly created folder
+
+`cd testing/`
+
+We can make a file in the working directory with `touch`.
+
+`touch text.txt`
+
+`ls` should return
+
+`text.txt`
+
+And we can remove files with `rm`.
+
+`rm text.txt`
+
+Use `ls` to ensure it is removed. Note that files are removed immediately, no 'empty trash' required!
+
+-----
+
+Use the `>` character to redirect output.
