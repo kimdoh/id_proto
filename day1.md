@@ -4,7 +4,7 @@ The goal of the exercises today is to stand up an http server on Amazon Web Serv
 
 When web browsers type in a domain name, DNS services convert that domain name into an IP address, and the computer's request is routed to the server associated with that address. Depending on the content and settings on the server, the server then performs actions and returns results to the requesting machine. 
 
-Servers are no different from the computer that we use every day, except that they are often `headless`, and lack any kind of display or input. Instead, they sit in stacks of hundreds of identical machines in air conditioned `datacenters` in locations where real estate is cheap. Each physical machine can also be partitioned into several virtual machines, so that many users can use the resources of each server and determine their own configurations
+Servers are no different from the computers that we use every day, except that they are often `headless`, and lack any kind of display or input. Instead, they sit in stacks of hundreds of identical machines in air conditioned `datacenters` in locations where real estate is cheap and internet access is fast. Each physical machine can also be partitioned into several virtual machines, so that many users can use the resources of each server and determine their own configurations.
 
 ![datacenter](http://datacenterfrontier.com/wp-content/uploads/2015/09/amazon-dc-hamilton.jpg)
 
@@ -17,6 +17,17 @@ Amazon offers services via AWS that powers the servers and other parts of the te
 - Visit the Services menu, and under the `Compute` menu, select `EC2`.
 - Click the `Launch Instance` button.
 
-AWS will then offer you options for which operating system to install on the virtual server
+AWS will then offer you options for which operating system and configuration to install on the virtual server we are now creating. These preset configurations are called `Amazon Machine Images`, and many exist for very specific purposes like hosting Wordpress sites and running academic computing applications. 
+
+Servers tend to use Linux or Windows as their operating system, though Mac servers exist [at tremendous relative cost](https://macminicolo.net). In class, we will use the well-supported and fairly standard Ubuntu Server 16.04 LTS without any fanciness at the start.
+
+- Select `Ubuntu Server 16.04 LTS (HVM), SSD Volume Type - ami-b7a114d7`
+
+
+
+
+
+
+
 
 
