@@ -2,7 +2,7 @@
 
 -----
 
-If you visit the IP address associated with your instance, your web browser will report an error, as we have yet to install and setup web server software on the machine.
+If you visit the [IP address](assignip.md) associated with your instance, your web browser will report an error, as we have yet to install and setup web server software on the machine.
 
 We'll need to access the machine to do so, and that requires a trip to your computer's terminal and an understanding of how we can interact with machines with text.
 
@@ -249,3 +249,6 @@ You can also use the `~` character to represent the home folder at any moment.
 
 `/Users/zach/`
 
+-----
+
+We can now hop back into [preparing the identity file](identityfile.md) for accessing the AWS server.
