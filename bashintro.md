@@ -27,6 +27,7 @@ Your computer will return
 The `echo` command is followed by a space and an `argument`. Spaces are semantic in Bash, and separate arguments from their inputs. Any argument that `echo` takes, it spits back out. Wrapping longer arguments in quotation marks ensures that the echo command speaks back all of its input.
 
  `echo "hello goodbye"`
+ 
  `hello goodbye`
  
 -----
@@ -138,7 +139,9 @@ Unlike what you would expect, `echo` does not parrot back what you typed in this
 Note that we didn't need to `touch greetings.txt`. The redirect character `>` checks if a file exists, creates it if it doesn't, and then *replaces* its contents with whatever preceded it. 
 
 `echo 'buongiorno zacceo' > greetings.txt`
+
 `cat greetings.txt`
+
 `buongiorno zacceo`
 
 If we want to add text to a file rather than replace its content, we can use `>>`.
