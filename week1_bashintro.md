@@ -163,9 +163,21 @@ You can pass `ls` a path to see the contents of the path.
 
 `mv container/contents.txt container/example.txt`
 
+Check the results.
+
 `ls container/`
 
 `example.txt`
+
+To delete a directory, regular `rm` is not enough -- Bash doesn't want anyone to delete a folder and inadvertantly delete its contents by accident. Most commands in Bash have several different options available for use. You can use options by placing the option indicator after the command and a hyphen. The `-r` option, short for 'recursive,' deletes a directory and its contents.
+
+`rm -r container`
+
+You can read about available options and command syntax by consulting the manuals for commands.
+
+`man rm`
+
+Checkout  manuals for the other commands introduced so far with `man`. Press the 'q' key to exit a manual.
 
 -----
 
