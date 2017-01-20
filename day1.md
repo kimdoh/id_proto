@@ -22,6 +22,11 @@ AWS will then offer you options for which operating system and configuration to 
 Servers tend to use Linux or Windows as their operating system, though Mac servers exist [at tremendous relative cost](https://macminicolo.net). In class, we will use the well-supported and fairly standard Ubuntu Server 16.04 LTS without any fanciness at the start.
 
 - Select `Ubuntu Server 16.04 LTS (HVM), SSD Volume Type - ami-b7a114d7`
+- Select `t2.micro` Instance Size, which is tagged `free tier eligible`
+- Click `Next` a few times, to get to the `Step 6: Configure Security Group` 
+- On this screen, we can set how our server can be accessed securely. `Add Rule` to allow this server access for `HTTP` and `HTTPS` and ensure the `Source` is set to `Anywhere`.
+
+
 
 
 
