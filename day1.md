@@ -4,7 +4,9 @@ The goal of the exercises today is to stand up an http server on Amazon Web Serv
 
 When web browsers type in a domain name, DNS services convert that domain name into an IP address, and the computer's request is routed to the server associated with that address. Depending on the content and settings on the server, the server then performs actions and returns results to the requesting machine. 
 
-Amazon offers services via AWS that drives a significant proportion of the internet. We are using it in class because of its free tier and genericness, but other options are available such as the recommendable [Dreamhost](http://www.dreamhost.com) and [HostGator](http://www.hostgator.com). [Google Cloud Computing](http://www.cloud.google.com) is a competing service as well.
+Servers are no different from the computer that we use every day, except that they are often `headless`, and lack any kind of display or input. Instead, they sit in stacks of hundreds of identical machines in air conditioned `datacenters` in locations where real estate is cheap. Each physical server can also be partitioned into several virtual machines, 
+
+Amazon offers services via AWS that powers the servers and other parts of the technology stack of a significant proportion of the internet. We are using it in class because of its free tier and genericness, but other options are available such as the recommendable [Dreamhost](http://www.dreamhost.com) and [HostGator](http://www.hostgator.com). [Google Cloud Computing](http://www.cloud.google.com) is a competing service as well that offers more power at the cost of complexity.
 
 
 - Visit http://www.aws.amazon.com.
@@ -13,6 +15,6 @@ Amazon offers services via AWS that drives a significant proportion of the inter
 - Visit the Services menu, and under the `Compute` menu, select `EC2`.
 - Click the `Launch Instance` button.
 
-
+AWS will then offer you options for which operating system to install on the virtual server
 
 
