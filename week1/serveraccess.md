@@ -22,4 +22,14 @@ After a short delay, introduction text shows up along with a new prompt. Your te
 
 `ubuntu@ip-172-31-2-29:~$`
 
+-----
+
+You can easily disconnect from your server as well.
+
+`exit`
+
+You should now be back on your own machine. Pressing the `up arrow` on your keyboard will bring back the last command you used *on your machine*, which should be your `ssh` command for reconnecting.
+
+-----
+
 We can now move on to [setting up software](lampinstall.md) on the server.
