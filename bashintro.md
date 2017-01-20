@@ -1,6 +1,6 @@
 If you visit the IP address associated with your instance, your web browser will report an error, as we have yet to install and setup web server software on the machine.
 
-We'll need to access the machine to do so, and that requires a trip to your computer's terminal.
+We'll need to access the machine to do so, and that requires a trip to your computer's terminal and an understanding of how we can interact with machines with text.
 
 > On Macs or Linux machines, open `Terminal` from the Applications Folder. The directions will assume macOS from here on.
 
@@ -66,7 +66,7 @@ We can also maneuver around the file system `cd`, abbreviated from 'change direc
 
 `cd Applications`
 
-Typing the first few letters of where you want to go is usually enough, as the `tab` key will autocomplete. Note that Bash is case-sensitive.
+Typing the first few letters of where you want to go is usually enough, as the `tab` key will autocomplete. Note that Bash is *case-sensitive*.
 
 `cd De` will autocomplete to `cd Desktop/` if you hit `tab`. You need to include the lowercase 'e' to disambiguate, as just capital letter 'D' would match `Desktop`, `Documents`, and `Downloads`.
 
@@ -121,8 +121,45 @@ And we can remove files with `rm`.
 
 `rm text.txt`
 
-Use `ls` to ensure it is removed. Note that files are removed immediately, no 'empty trash' required!
+Use `ls` to ensure it is removed. Note that files are *removed immediately*, no 'empty trash' required!
 
 -----
 
-Use the `>` character to redirect output.
+Use the `>` character to redirect output. 
+
+`echo 'hello zach' > greetings.txt`
+
+Unlike what you would expect, `echo` does not parrot back what you typed in this instance. Instead, the text is pushed into the `greetings.txt` file. You can read the file with the `cat` command.
+
+`cat greetings.txt`
+`hello zach`
+
+Note that we didn't need to `touch greetings.txt`. The redirect character `>` checks if a file exists, creates it if it doesn't, and then *replaces* its contents with whatever preceded it. 
+
+`echo 'buongiorno zacceo' > greetings.txt`
+`cat greetings.txt`
+`buongiorno zacceo`
+
+If we want to add text to a file rather than replace its content, we can use `>>`.
+
+`echo 'kalimera zahari' >> greetings.txt`
+`echo 'merhaba zakhari' >> greetings.txt`
+`echo 'kwey maxok' >> greetings.txt`
+`echo 'rimaykullayki saksayro' >> greetings.txt`
+`echo 'ohayo gozaimasu zakkun' >> greetings.txt`
+
+Read the file to see the additions.
+
+`cat greetings.txt`
+```
+buongiorno zacceo
+kalimera zahari
+merhaba zakhari
+kwey maxok
+rimaykullayki saksayro
+ohayo gozaimasu zakkun
+```
+
+-----
+
+You can `cd ..` to move up in the directory structure.
