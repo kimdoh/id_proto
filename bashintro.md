@@ -132,6 +132,7 @@ Use the `>` character to redirect output.
 Unlike what you would expect, `echo` does not parrot back what you typed in this instance. Instead, the text is pushed into the `greetings.txt` file. You can read the file with the `cat` command.
 
 `cat greetings.txt`
+
 `hello zach`
 
 Note that we didn't need to `touch greetings.txt`. The redirect character `>` checks if a file exists, creates it if it doesn't, and then *replaces* its contents with whatever preceded it. 
@@ -143,9 +144,13 @@ Note that we didn't need to `touch greetings.txt`. The redirect character `>` ch
 If we want to add text to a file rather than replace its content, we can use `>>`.
 
 `echo 'kalimera zahari' >> greetings.txt`
+
 `echo 'merhaba zakhari' >> greetings.txt`
+
 `echo 'kwey maxok' >> greetings.txt`
+
 `echo 'rimaykullayki saksayro' >> greetings.txt`
+
 `echo 'ohayo gozaimasu zakkun' >> greetings.txt`
 
 Read the file to see the additions.
