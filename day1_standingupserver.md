@@ -6,6 +6,15 @@ The goal of the exercises today is to stand up an http server on Amazon Web Serv
 
 When web browsers type in a domain name, DNS services convert that domain name into an IP address, and the computer's request is routed to the server associated with that address. Depending on the content and settings on the server, the server then performs actions and returns results to the requesting machine. 
 
+To get a server up and running, we need to complete several steps.
+
+- Get a machine running on AWS
+- Install an operating system on the machine
+- Allocate an address to the server
+- Connect to the machine to edit its settings
+- Install web server software
+- Add files to serve
+
 Servers are no different from the computers that we use every day, except that they are often `headless`, and lack any kind of display or input. Instead, they sit in stacks of hundreds of identical machines in air conditioned `datacenters` in locations where real estate is cheap and internet access is fast. Each physical machine can also be partitioned into several virtual machines, so that many users can use the resources of each server and determine their own configurations.
 
 ![datacenter](http://datacenterfrontier.com/wp-content/uploads/2015/09/amazon-dc-hamilton.jpg)
