@@ -16,7 +16,7 @@ After Terminal launches, it will present you with a prompt.
 ComputerName:~ user$ 
 ```
 
-After the `$` you can type in commands, for instance.
+After the `$` you can type in commands and then hit `enter`, for instance.
 
 `echo hello`
 
@@ -29,7 +29,7 @@ The `echo` command is followed by a space and an `argument`. Spaces are semantic
  `echo "hello goodbye"`
  `hello goodbye`
  
- -----
+-----
  
 Enter another Bash command 
 
@@ -39,7 +39,11 @@ which returns something like
 
 `/Users/zach`
 
-`pwd` stands for 'print working directory,' and returns where your Bash shell is currently located in your computer's filesystem. Your Bash shell opens into your user home directory, which is often represented in Bash by the `~` (tilda) character.
+`pwd` stands for 'print working directory,' and returns where your Bash shell is currently located in your computer's filesystem. Your Bash shell opens into your user home directory, which is often represented in Bash by the `~` (tilda) character. This is why your prompt includes the tilda character, it is showing you where you are currently located.
+
+`ComputerName:~ user$ `
+
+-----
 
 We can see what is in the current directory with `ls`.
 
@@ -56,13 +60,27 @@ Music
 Pictures
 ```
 
-We can also maneuver around the file system `cd`.
+-----
+
+We can also maneuver around the file system `cd`, abbreviated from 'change directory.'
 
 `cd Applications`
 
 Typing the first few letters of where you want to go is usually enough, as the `tab` key will autocomplete. Note that Bash is case-sensitive.
 
-`cd Ap` will autocomplete to `cd Applications` if you hit `tab`.
+`cd De` will autocomplete to `cd Desktop/` if you hit `tab`. You need to include the lowercase 'e' to disambiguate, as just capital letter 'D' would match `Desktop`, `Documents`, and `Downloads`.
 
+Your prompt will update.
 
- 
+`ComputerName:Applications user$` 
+
+And then you can see the contents of your [presumably messy] Desktop with `ls`.
+
+```
+Untitled1.ai
+Untitled1_Final.ai
+Untitled1_Final_FINAL.ai
+Untitled1_REALLY_FINAL.ai
+Untitled3.ai
+```
+
