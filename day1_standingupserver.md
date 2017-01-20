@@ -39,4 +39,6 @@ A popup will ask you to create a new key pair. This is a file that will allow ac
 - In the first dropdown menu, select `Create a new key pair`
 - Name your keypair file and `Download` it.
 
+This file is incredibly important, and serves to identify you as a secure user of your server. We'll return to it soon, don't delete it!
+
 After a short delay during which Amazon is creating and configuring your virtual server, your machine will boot up for the first time, which is indicated with a `running` green light in the AWS 
