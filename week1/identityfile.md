@@ -2,7 +2,7 @@
 
 -----
 
-With the [IP address allocated](assignip.md), we'll now work with the file downloaded from AWS when we [setup our EC2 instance](server.md). This file contains your access credentials for accessing your AWS machine, but we have to prepare it first. Please make a duplicate of it before continuing, and place the file on your Desktop.
+With the [IP address allocated](assignip.md), we'll now work with the file downloaded from AWS when we [setup our EC2 instance](server.md). This file contains your access credentials for getting into your AWS machine, but we have to prepare it first. Please make a duplicate of it before continuing, and place the file on your Desktop.
 
 In Terminal, move to your desktop.
 
@@ -82,3 +82,5 @@ You can add numbers together to define specific permissions.
 
 
 The command fired earlier `chmod 400 proto_class.pem` sets no access for the world, no access for members of the user's group, and Read access for the current user. This is now a highly secure file that only the current user can read.
+
+Let's now take this file and [connect directly to our server](serveraccess.md).
