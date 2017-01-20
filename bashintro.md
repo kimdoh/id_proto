@@ -29,6 +29,8 @@ The `echo` command is followed by a space and an `argument`. Spaces are semantic
  `echo "hello goodbye"`
  `hello goodbye`
  
+ -----
+ 
 Enter another Bash command 
 
 `pwd` 
