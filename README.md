@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to Prototyping Interactions
 
-You can use the [editor on GitHub](https://github.com/zachpino/id_proto/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This site will serve as the course reference for the Institute of Design's 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
