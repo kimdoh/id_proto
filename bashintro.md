@@ -27,6 +27,7 @@ Your computer will return
 The `echo` command is followed by a space and an `argument`. Spaces are semantic in Bash, and separate arguments from their inputs. Any argument that `echo` takes, it spits back out. Wrapping longer arguments in quotation marks ensures that the echo command speaks back all of its input.
 
  `echo "hello goodbye"`
+ `hello goodbye`
  
 Enter another Bash command 
 
@@ -36,10 +37,19 @@ which returns something like
 
 `/Users/zach`
 
-`pwd` stands for 'print working directory,' and returns where your Bash shell is currently located in your computer's filesystem. Your Bash shell opens into your user home folder, which is often represented in Bash by the `~` (tilda) character.
+`pwd` stands for 'print working directory,' and returns where your Bash shell is currently located in your computer's filesystem. Your Bash shell opens into your user home directory, which is often represented in Bash by the `~` (tilda) character.
 
+We can see what is in the current directory.
 
+`ls`
 
-
- 
-
+```
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+```
