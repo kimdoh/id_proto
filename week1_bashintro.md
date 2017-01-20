@@ -159,9 +159,7 @@ You can pass `ls` a path to see the contents of the path.
 
 `contents.txt`
 
-`contents.txt` has been moved inside of container.
-
-`mv` can also be used to rename files.
+`contents.txt` has been moved inside of the container directory. `mv` can also be used to rename files.
 
 `mv container/contents.txt container/example.txt`
 
