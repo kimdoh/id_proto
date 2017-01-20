@@ -13,6 +13,20 @@ macOS uses a Terminal dialect called [Bash](https://en.wikipedia.org/wiki/Bash_(
 After Terminal launches, it will present you with a prompt.
 
 ```
-htpcs-Mac-mini:~ htpc$ 
+ComputerName:~ user$ 
 ```
+
+After the `$` you can type in commands, for instance.
+
+`echo hello`
+
+Your computer will return
+
+`hello`
+
+The `echo` command is followed by a space and an `argument`. Spaces are semantic in Bash, and separate commands from their inputs. Any argument that `echo` takes, it spits back out. Wrapping longer arguments in quotation marks ensures that the echo command speaks back all of its input.
+
+ `echo "hello goodbye"`
+ 
+ 
 
