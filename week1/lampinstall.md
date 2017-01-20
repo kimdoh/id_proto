@@ -29,5 +29,5 @@ All of these will find a use over the coming weeks.
 
 -----
 
-If you now put your server's IP address into your web browser, you should see the Apache welcome. Our web server is now serving a website. Tada!
+If you now put your server's IP address into your web browser, you should see the Apache welcome. Our web server is now serving a website. 
 
