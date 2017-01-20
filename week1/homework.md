@@ -2,7 +2,7 @@
 
 -----
 
-To prepare for Week 2, make sure all of the [previous steps](readme.md) are understood. In particular, ensure that [you get some practice movign around in your Terminal](bashintro.md).
+To prepare for Week 2, make sure all of the [previous steps](readme.md) are understood. In particular, ensure that [you get some practice moving around in your Terminal](bashintro.md).
 
 -----
 
