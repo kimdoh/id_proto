@@ -2,7 +2,7 @@
 
 -----
 
-We'll now work with the file downloaded from AWS when we setup our EC2 instance. This file contains your access credentials for accessing your AWS machine, but we have to prepare it first. Please make a duplicate of it before continuing, and place the file on your Desktop.
+With the [IP address allocated](assignip.md), we'll now work with the file downloaded from AWS when we [setup our EC2 instance](server.md). This file contains your access credentials for accessing your AWS machine, but we have to prepare it first. Please make a duplicate of it before continuing, and place the file on your Desktop.
 
 In Terminal, move to your desktop.
 
