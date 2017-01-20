@@ -19,7 +19,7 @@ Amazon offers services via AWS that powers the servers and other parts of the te
 
 AWS will then offer you options for which operating system and configuration to install on the virtual server we are now creating. These preset configurations are called `Amazon Machine Images`, and many exist for very specific purposes like hosting Wordpress sites and running academic computing applications. 
 
-Servers tend to use Linux or Windows as their operating system, though Mac servers exist [at tremendous relative cost](https://macminicolo.net). In class, we will use the well-supported and fairly standard Ubuntu Server 16.04 LTS without any fanciness at the start.
+Servers tend to use Linux or Windows as their operating system, though Mac servers exist [at tremendous relative cost](https://macminicolo.net). Linux servers are far more common, as Linux is a free and open source operating system. In class, we will use the well-supported and fairly standard Ubuntu Linux Server without any fanciness at the start.
 
 - Select `Ubuntu Server 16.04 LTS (HVM), SSD Volume Type - ami-b7a114d7`
 - Select `t2.micro` Instance Size, which is tagged `free tier eligible`
