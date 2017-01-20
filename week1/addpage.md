@@ -1,3 +1,7 @@
+###Adding a Webpage
+
+-----
+
 After [installing the LAMP stack](lampinstall.md), the AWS server is now serving a webpage to interested browsers at your allocated IP address. The page being served is Apache's default welcome message, which can be easily replaced.
 
 [Use ssh](serveraccess.md) to get into your machine, and then use `cd` to move to Apache's default folder.
