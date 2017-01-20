@@ -167,4 +167,11 @@ ohayo gozaimasu zakkun
 
 -----
 
-You can `cd ..` to move up in the directory structure.
+You can `cd ..` to move up in the directory structure to exit the `testing` folder and go back to the desktop.
+
+`pwd`
+`/Users/zach/Desktop/testing`
+
+`cd ..`
+`pwd`
+`/Users/zach/Desktop/`
