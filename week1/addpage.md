@@ -39,3 +39,7 @@ If you visit your IP address, you should find a clickable link. Of course, `seco
 `echo '<a href="index.html">Go Back Home</a>' > secondpage.html`
 
 The two pages now link back and forth to one another.
+
+-----
+
+At this stage, we've setup a server, connected it to the internet, and built out some content. Now, [practice and take some next steps](homework.md).
