@@ -1,4 +1,6 @@
-###Standing Up an AWS Server
+###Week 1: Standing Up a Server
+
+-----
 
 The goal of the exercises today is to stand up an http server on Amazon Web Services [AWS]. An http server is a computer (real or virtual) that exists for the simple purpose of handling requests over the http protocol from web browsers and other access points.
 
