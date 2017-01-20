@@ -8,9 +8,10 @@ When web browsers type in a domain name, DNS services convert that domain name i
 
 To get a server up and running, we need to complete several steps.
 
-- [Get a machine running on AWS](readme.md)
-- [Install an operating system on the machine](readme.md)
-- Allocate an address to the server
-- Connect to the machine to edit its settings
-- Install web server software
-- Add files to serve
+- [Get a machine running on AWS and install an OS](server.md)
+- [Allocate an address to the server](assignip.md)
+- [Prepare an access file](identityfile.md)
+- [Connect to the machine to edit its settings](serveraccess.md)
+- [Update the server and install software](lampinstall.md)
+- [Add files to serve](firstwebsite.md)
+- [Next steps and homework](homework.md)
