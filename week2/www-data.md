@@ -50,3 +50,4 @@ echo "permissions problems solved"  > test.html
 
 Visit your `[elastic IP address]/test.html` to check if your server is behaving.
 
+Let's now work through some other methods for [editing text](nano.md) on our server.
