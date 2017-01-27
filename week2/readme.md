@@ -11,7 +11,7 @@ Now, we will complete some leftover server configuration steps, and then move in
 - [Setting up Sublime with SFTP](sublime.md)
 - [Block Level Elements](block.md)
 - [Inline Elements](inline.md)
-- [Inline Styling with CSS](css.md)
+- [Inline Styling with CSS](inline-css.md)
 - [Stylesheets, Classes and IDs](class-id.md)
 - [Box Model and Positioning](box-model.md)
 - [Next steps and homework](homework.md)
