@@ -1,4 +1,8 @@
-There are many ways to add customized style to any html element.
+###Week 2: Inline Styling
+
+-----
+
+There are many ways to add customized style to [any html element](inline.md).
 
 The aspects that we can change are defined in a simple language called CSS, Cascading Style Sheets.
 
@@ -45,3 +49,5 @@ The *cascading* part of Cascading Style Sheets refers to how styles propogate to
 ```
 
 The `strong` tag adds bold styling, but the text stays red. There are complex rules that govern style inheritance, which will be documented in future guides.
+
+In general, inline styling is reserved for overriding styles [declared in the head of the document](span-div.md).
