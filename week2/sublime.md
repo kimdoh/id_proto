@@ -1,4 +1,8 @@
-Nano is a great example of the Unix tool philosophy, which encourages small applications that do one thing really well. But, since it doesn't have syntax highlighting and other useful coding aids, we should explore some alternate text editing tools.
+###Week 2: Sublime Text
+
+-----
+
+[Nano](nano.md) is a great example of the Unix tool philosophy, which encourages small applications that do one thing really well. But, since it doesn't have syntax highlighting and other useful coding aids, we should explore some alternate text editing tools.
 
 Sublime Text is a highly recommended commercial text editing application, and its package ecosystem offers all kinds of useful add-ons including SFTP support, which we will now setup.
 
@@ -87,3 +91,5 @@ Save this file after these four edits with a recognizable name inside of the def
 After saving this file, you can `control/command+shift+p` to bring up the command palette. There, type in `Browse Server`, select it, and then select your filename. This will then allow you to browse the Apache server directory on your AWS server, and easily edit files! 
 
 You can manipulate files and directories from the command palette. Selecting `Edit` will allow you to edit any file on your remote server. Saving the file in Sublime will upload your changes to the server. Convenient!
+
+Now, let's move onto [creating html content](block.md) on the server.
