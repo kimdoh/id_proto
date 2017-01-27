@@ -83,7 +83,7 @@ There are many levels of headers.
 </html>
 ```
 
-<hr />
+<hr /> 
     <h1>First Level Webpage Title</h1>
     <h2>Second Level Webpage Title</h2>
     <h3>Third Level Webpage Title</h3>
