@@ -83,3 +83,7 @@ Also, remove the `//` at the beginning of this line, and add the path to your .p
 ```
 
 Save this file after these four edits with a recognizable name inside of the default save location (a hidden `sftp_servers` directory).
+
+After saving this file, you can `control/command+shift+p` to bring up the command palette. There, type in `Browse Server`, select it, and then select your filename. This will then allow you to browse the Apache server directory on your AWS server, and easily edit files! 
+
+You can manipulate files and directories from the command palette. Selecting `Edit` will allow you to edit any file on your remote server. Saving the file in Sublime will upload your changes to the server. Convenient!
