@@ -18,7 +18,7 @@ The apache web server uses the www-data group to manage who can edit served file
 ```
 sudo chown -R www-data:www-data /var/www
 ```
-This line ensures that the www-data group owns the /var/www folder, so that our new group membership applies to all subfolders.
+This line ensures that the www-data group owns the /var/www folder, so that our new group membership applies to all subfolders of `/var/www`.
 
 ```
 sudo chmod -R g+rwX /var/www
