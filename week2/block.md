@@ -10,7 +10,7 @@ Visit your elastic IP address in a browser, and reload the page after each follo
 
 Rather than just typing text into this file as we have done previously, let's begin writing specially formatted HTML code for in-browser rendering.
 
-First, let's declare the document as an html file, a file written in the *hypertext markup language* by wrapping the whole file in the appropriate tag.
+First, let's declare the document as an html file, a file written in the *hypertext markup language*, by wrapping the whole file in the appropriate tag.
 
 ```
 <html>
