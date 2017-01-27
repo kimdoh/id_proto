@@ -1,5 +1,13 @@
-###Week 2: Box Model
+###Week 2: HTML Elements and the Box Model
 
 -----
 
+After setting up a virtual server on AWS and installing the necessary LAMP software stack, we have a website accessible to the world. We've also used the Bash shell to create and move around files and directories on our physical computers, and used ssh to access our server and manipulate files there. 
 
+Now, we will complete some leftover server configuration steps, and then move into learning about HTML elements, CSS, and the box model in the Sublime text editor.
+
+- [Adding ubuntu user to the www-data group](www-data.md)
+- [Setting up Sublime with SFTP](sublime.md)
+- [Block Level Elements](block.md)
+- [Inline Elements](inline.md)
+- [Next steps and homework](homework.md)
