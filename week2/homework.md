@@ -39,5 +39,11 @@ Check out the reference of [CSS properties](http://www.w3schools.com/cssref/) to
       .details{
       ...
       } 
-     
+    </style>
+   </head>
+   
+   <body>
+      ...
+   </body>
+</html>   
 ```
