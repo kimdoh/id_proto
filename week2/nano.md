@@ -1,4 +1,4 @@
-###Week 1: Permissions Improvement
+###Week 2: Nano Editor
 
 -----
 
@@ -64,4 +64,4 @@ This command finds a text string in the current file.
 ```
 Quit `nano`, after a prompt to save any changes.
 
-Use `nano` to make quick changes on your server directly. It is a simple program, without the bells-and-whistles offered by more contemporary text tools. We will install the Sublime text editor and connect it to our AWS instance.  
+Use `nano` to make quick changes on your server directly. It is a simple program, without the bells-and-whistles offered by more contemporary text tools. We will install the [Sublime text editor](sublime.md) and connect it to our AWS instance.  
