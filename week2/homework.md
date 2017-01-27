@@ -4,7 +4,7 @@
 
 For next week, practice the [CSS basics](inline.md) we covered on your server, as well as continuing to reinforce your Bash navigation skills. 
 
-In particular, please define a draft style guide to be used for your proposed visualization.
+In particular, please define a draft style guide to be used for your proposed visualization and create a short writeup of your project.
 
 ```
 touch styleguide.html
