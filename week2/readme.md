@@ -7,7 +7,7 @@ After setting up a virtual server on AWS and installing the necessary LAMP softw
 Now, we will complete some leftover server configuration steps, and then move into learning about HTML elements, CSS, and the box model in the Sublime text editor.
 
 - [Adding ubuntu user to the www-data group](www-data.md)
-- [Setting up Sublime with SFTP](sublime.md)
+- [Nano, and Setting up Sublime with SFTP](sublime.md)
 - [Block Level Elements](block.md)
 - [Inline Elements](inline.md)
 - [Next steps and homework](homework.md)
