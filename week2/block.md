@@ -79,7 +79,7 @@ There are many levels of headers.
     <h4>Fourth Level Webpage Title</h4>
     <h5>Fifth Level Webpage Title</h5>
     <h6>Sixth Level Webpage Title</h6>
-</body>
+  </body>
 </html>
 ```
 
@@ -95,5 +95,41 @@ There are many levels of headers.
 <h5>Fifth Level Webpage Title</h5>
 
 <h6>Sixth Level Webpage Title</h6>
+<hr /> 
 
-<hr />   
+The styling you see in your browser will likely differ. But, you should see six clearly different styles on the page. These can be customized easily in CSS, which we will cover in subsequent lessons.
+
+Note, though, in html scripts, white space is not observed.
+
+This code...
+
+```
+<html>
+  <head>
+  </head>
+  
+  <body>
+    <h1>First Level Webpage Title</h1>
+    <h2>Second Level Webpage Title</h2>
+  </body>
+</html>
+```
+
+renders the same as this code.
+
+```
+<html>
+  <head>
+  </head>
+  
+  <body>
+    <h1>First Level Webpage Title</h1>
+
+
+
+
+    <h2>Second Level Webpage Title</h2>
+  </body>
+</html>
+```
+
