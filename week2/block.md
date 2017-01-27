@@ -52,9 +52,9 @@ This should render like this in a browser.
 
 <hr />
 <h1>Webpage Title</h1>
-    <p>
+
     This is some body text.
-    </p>
+
 <hr />
 
 
