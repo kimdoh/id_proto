@@ -136,9 +136,9 @@ renders the same as this code.
 
 In order to introduce spacing, we will need to use CSS.
 
-The `<h#>` and `<p>` tags are *block-level* elements. They define a rectangle of space around themselves that takes up 100% of the width of their parent element, which is in this case the `<body>` of the html document. As a result, each block level element makes a new vertical place for itself on the page.
+The `<h#>` and `<p>` tags are *block-level* elements. They define a rectangle of space around themselves that takes up 100% of the width of their parent element, which is in this case the `<body>` of the html document. As a result, each block-level element makes a new vertical place for itself on the page.
 
-Another set of useful *block-level* elements are the list elements.
+Another set of useful block-level elements are the list elements.
 
 ```
 <html>
@@ -175,8 +175,12 @@ Another set of useful *block-level* elements are the list elements.
 <hr />
 
 <ol>
-<li>Unordered List Item</li>
-<li>Unordered List Item</li>
-<li>Unordered List Item</li>
+<li>Ordered List Item</li>
+<li>Ordered List Item</li>
+<li>Ordered List Item</li>
 </ol>    
 <hr />
+
+The `<ul>` and `<ol>` tags define the beginning and ends of lists, which contain items defined by `<li>` tags. 
+
+Also note another block-level element, `<hr />`, which creates a horizontal rule line on the page. Its a different kind of html element, called a *void element*, that cannot contain other content. For this reason, the ending slash is included in the initial tag. 
