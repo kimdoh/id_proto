@@ -53,15 +53,14 @@ The `<body>` tag contains all of the visible parts of the webpage. Let's add som
 
 This should render like this in a browser.
 
-<hr />
+<div style="border:1px solid black">
+
 <h1>Webpage Title</h1>
 
 This is some body text.
 
 This is some more body text.
 
-<hr />
-
-
+</div>
 
 
