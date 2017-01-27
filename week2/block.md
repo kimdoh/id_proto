@@ -1,8 +1,8 @@
-###Week 1: Block Elements
+###Week 2: Block Elements
 
 -----
 
-Inside of Sublime Text, press `command/control + shift + p` to open the command palette. There, type in `Browse Server`, select it, and then select your previously created SFTP configuration file. You should see the contents of your `/var/www/html` directory.
+Inside of [Sublime Text](sublime.md), press `command/control + shift + p` to open the command palette. There, type in `Browse Server`, select it, and then select your previously created SFTP configuration file. You should see the contents of your `/var/www/html` directory.
 
 Create a new file called `index.html`. This is the file that browsers load when a website address is visited.
 
@@ -238,4 +238,4 @@ And don't forget 90's favorite `<marquee>`.
 </html>
 ```
 
-There are many other block-level elements, but for now, let's move on to another type of element to be placed *inside* of the block-level discussed here.
+There are many other block-level elements, but for now, let's move on to [another type of element](inline.md) to be placed *inside* of the block-level discussed here.
