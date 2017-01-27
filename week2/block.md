@@ -213,13 +213,11 @@ Lists can also be nested.
 <hr />
 <ul>
 <li>Unordered List Item</li>
-<li>
 <ol>
 <li>Ordered List Item</li>
 <li>Ordered List Item</li>
 <li>Ordered List Item</li>
 </ol>    
-</li>
 <li>Unordered List Item</li>
 </ul>
 <hr />
