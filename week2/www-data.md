@@ -23,7 +23,7 @@ This line ensures that the www-data group owns the /var/www folder, so that our 
 ```
 sudo chmod -R g+rwX /var/www
 ```
-Change permissions on the directory. We are adding to the `g`roup that our current user belongs to `r`ead,`w`rite, and e`X`ecute permissions. Read more about how chmod works by running  `man chown`. 
+Change permissions on the directory. We are adding to the www-data `g`roup of our current user `r`ead,`w`rite, and e`X`ecute permissions. Read more about how chmod works by running  `man chown`. 
 
 ```
 exit
