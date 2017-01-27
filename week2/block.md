@@ -64,7 +64,7 @@ This is some more body text.
 </p>
 <hr />
 
-The `<h1>` element, abbreviated from "first-level-header", adds some default title styling to the text contained within the tags, and `<p>` for simple "paragraph" does not.
+The `<h1>` element, abbreviated from "first-level-header", adds some default title styling to the text contained within the tags, and `<p>` for simple "paragraph" does not. By convention, elements contained within other elements are indented, to show the hierarchy of the page.
 
 There are many levels of headers.
 
@@ -209,3 +209,17 @@ Lists can also be nested.
   </body>
 </html>
 ```
+
+<hr />
+<ul>
+<li>Unordered List Item</li>
+<li>
+<ol>
+<li>Ordered List Item</li>
+<li>Ordered List Item</li>
+<li>Ordered List Item</li>
+</ol>    
+</li>
+<li>Unordered List Item</li>
+</ul>
+<hr />
