@@ -12,4 +12,6 @@ Now, we will complete some leftover server configuration steps, and then move in
 - [Block Level Elements](block.md)
 - [Block Model](block-model.md)
 - [Inline Elements](inline.md)
+- [Inline Styling with CSS](css.md)
+- [Stylesheets, Classes and IDs](class-id.md)
 - [Next steps and homework](homework.md)
