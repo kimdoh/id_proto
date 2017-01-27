@@ -24,7 +24,7 @@ CSS properties can be added to an html document in many different places, but th
 <p>
 This is unstyled text.
 </p>
-<p style="font-size:20px">
+<p style="color:red">
 This is unstyled text.
 </p>
 <hr />
