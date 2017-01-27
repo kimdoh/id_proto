@@ -56,11 +56,12 @@ This should render like this in a browser.
 <hr />
 
 <h1>Webpage Title</h1>
-
+<p>
 This is some body text.
-
+</p>
+<p>
 This is some more body text.
-
+</p>
 <hr />
 
 The `<h1>` element, abbreviated from "first-level-header", adds some default title styling to the text contained within the tags, and `<p>` for simple "paragraph" does not.
@@ -133,3 +134,28 @@ renders the same as this code.
 </html>
 ```
 
+In order to introduce spacing, we will need to use either CSS or `<p>` tags.
+
+```
+<html>
+  <head>
+  </head>
+  
+  <body>
+    <h1>First Level Webpage Title</h1>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <h2>Second Level Webpage Title</h2>
+  </body>
+</html>
+```
+<hr />
+<h1>First Level Webpage Title</h1>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h2>Second Level Webpage Title</h2>
+<hr />
