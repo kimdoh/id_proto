@@ -1,0 +1,1 @@
+Nano is a great example of the Unix philosophy -- small tools that do one thing really well. But, since it doesn't have syntax highlighting and other useful coding aids, we should explore some alternate text editing tools.
