@@ -4,7 +4,7 @@
 
 In addition to block-level elements, which take up 100% of the horizontal space on the page, there also exists elements which can sit next to one another. These are called *inline elements*. We have already used one: the anchor `<a>` tag.
 
-`<abbr>` Element
+`<em>` Emphasis Element
 
 ```
 <html>
@@ -13,17 +13,17 @@ In addition to block-level elements, which take up 100% of the horizontal space 
   
   <body>
     <p>
-      <abbr title="this text will display when a user hovers their mouse">point here</abbr>
+      This is <em>emphatic text</em>.
     </p>
   </body>
 </html>  
 ```
 
 <hr />
-<abbr title="this text will display when a user hovers their mouse">point here</abbr>
+This is <em>emphatic text</em>.
 <hr />
 
-Emphasis
+
 
 Strong
 
