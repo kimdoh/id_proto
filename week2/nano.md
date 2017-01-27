@@ -2,7 +2,7 @@
 
 -----
 
-We have become comfortable navigating our server and creating content with `cd`, `ls`, `mkdir`, `touch`. We've also used `echo "content" > file.txt` to replace text in a file and `echo "content" >> file.txt` to append.
+We have become comfortable navigating our server and creating content with `cd`, `ls`, `mkdir`, `touch`. We've also used `echo "content" > file.txt` to replace text in a file and `echo "content" >> file.txt` to append. Make sure your [permissions have been updated](www-data.md) before moving on.
 
 Being comfortable with these tools is fundamental, but of course there are more powerful methods to edit text in the Terminal. Imagine needing to construct a complex website with just `echo` at our disposal!
 
