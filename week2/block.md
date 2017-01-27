@@ -184,3 +184,28 @@ Another set of useful block-level elements are the list elements.
 The `<ul>` and `<ol>` tags define the beginning and ends of lists, which contain items defined by `<li>` tags. 
 
 Also note another block-level element, `<hr />`, which creates a horizontal rule line on the page. Its a different kind of html element, called a *void element*, that cannot contain other content. For this reason, the ending slash is included in the initial tag. 
+
+Lists can also be nested.
+
+```
+<html>
+  <head>
+  </head>
+  
+  <body>
+
+    <ul>
+      <li>Unordered List Item</li>
+      <li>
+        <ol>
+          <li>Ordered List Item</li>
+          <li>Ordered List Item</li>
+          <li>Ordered List Item</li>
+        </ol>    
+      </li>
+      <li>Unordered List Item</li>
+    </ul>
+ 
+  </body>
+</html>
+```
