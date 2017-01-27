@@ -10,7 +10,7 @@ Now, we will complete some leftover server configuration steps, and then move in
 - [Nano Text Editor](nano.md)
 - [Setting up Sublime with SFTP](sublime.md)
 - [Block Level Elements](block.md)
-- [Block Model](block-model.md)
+- [Box Model and Positioning](box-model.md)
 - [Inline Elements](inline.md)
 - [Inline Styling with CSS](css.md)
 - [Stylesheets, Classes and IDs](class-id.md)
