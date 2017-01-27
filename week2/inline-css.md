@@ -20,3 +20,11 @@ CSS properties can be added to an html document in many different places, but th
   </body>
 </html>
 ```
+<hr/>
+<p>
+This is unstyled text.
+</p>
+<p style="font-size:20px">
+This is unstyled text.
+</p>
+<hr />
