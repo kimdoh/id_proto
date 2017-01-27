@@ -27,6 +27,26 @@ Change permissions on the directory. We are adding to the www-data `g`roup of ou
 
 ```
 exit
+```
+Disconnect from the server for these changes to take effect.
+
+Let's reconnect to our server to test.
+
+```
 ssh -i ~/.ssh/identity.pem ubuntu@elasticIPaddress
 ```
-Disconnect from the server, and reconnect for these changes to take effect.
+
+And then, let's move to our web directory.
+
+```
+cd /var/www/html
+```
+
+Try this, it should work!
+
+```
+echo "permissions problems solved"  > test.html
+```
+
+Visit your `[elastic IP address]/test.html` to check if your server is behaving.
+
