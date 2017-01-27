@@ -100,7 +100,7 @@ There are many levels of headers.
 
 The styling you see in your browser will likely differ. But, you should see six clearly different styles on the page. These can be customized easily in CSS, which we will cover in subsequent lessons.
 
-Note, though, in html scripts, white space is not observed.
+Note, though, in html scripts, white space is not observed. 
 
 This code...
 
@@ -134,7 +134,11 @@ renders the same as this code.
 </html>
 ```
 
-In order to introduce spacing, we will need to use either CSS or `<p>` tags.
+In order to introduce spacing, we will need to use CSS.
+
+The `<h#>` and `<p>` tags are *block-level* elements. They define a rectangle of space around themselves that takes up 100% of the width of their parent element, which is in this case the `<body>` of the html document. As a result, each block level element makes a new vertical place for itself on the page.
+
+Another set of useful *block-level* elements are the list elements.
 
 ```
 <html>
@@ -142,20 +146,37 @@ In order to introduce spacing, we will need to use either CSS or `<p>` tags.
   </head>
   
   <body>
-    <h1>First Level Webpage Title</h1>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <h2>Second Level Webpage Title</h2>
+
+    <ul>
+      <li>Unordered List Item</li>
+      <li>Unordered List Item</li>
+      <li>Unordered List Item</li>
+    </ul>
+    
+    <hr />
+    
+    <ol>
+      <li>Unordered List Item</li>
+      <li>Unordered List Item</li>
+      <li>Unordered List Item</li>
+    </ol>    
+
   </body>
 </html>
 ```
+
 <hr />
-<h1>First Level Webpage Title</h1>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<h2>Second Level Webpage Title</h2>
+<ul>
+<li>Unordered List Item</li>
+<li>Unordered List Item</li>
+<li>Unordered List Item</li>
+</ul>
+
+<hr />
+
+<ol>
+<li>Unordered List Item</li>
+<li>Unordered List Item</li>
+<li>Unordered List Item</li>
+</ol>    
 <hr />
