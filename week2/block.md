@@ -221,4 +221,21 @@ Lists can also be nested.
 <hr />
 
 
+And don't forget 90's favorite `<marquee>`.
+
+```
+<html>
+  <head>
+  </head>
+  
+  <body>
+
+    <marquee>
+      Moving Text
+    </marquee
+ 
+  </body>
+</html>
+```
+
 There are many other block-level elements, but for now, let's move on to another type of element to be placed *inside* of the block-level discussed here.
