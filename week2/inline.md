@@ -39,5 +39,27 @@ This is <em>emphatic text</em>.
 </html>  
 ```
 
-Strike
+<hr />
+This is <strong>strong text</strong>.
+<hr />
+
+
+#####`<s>` Strike-Through Element
+
+```
+<html>
+  <head>
+  </head>
+  
+  <body>
+    <p>
+      This is <s>stricken text</s>.
+    </p>
+  </body>
+</html>  
+```
+
+<hr />
+This is <s>stricken text</s>.
+<hr />
 
