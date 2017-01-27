@@ -237,5 +237,8 @@ And don't forget 90's favorite `<marquee>`.
   </body>
 </html>
 ```
+<marquee>
+Moving Text
+</marquee>
 
 There are many other block-level elements, but for now, let's move on to another type of element to be placed *inside* of the block-level discussed here.
