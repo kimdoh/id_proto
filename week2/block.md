@@ -196,13 +196,11 @@ Lists can also be nested.
 
     <ul>
       <li>Unordered List Item</li>
-      <li>
-        <ol>
-          <li>Ordered List Item</li>
-          <li>Ordered List Item</li>
-          <li>Ordered List Item</li>
-        </ol>    
-      </li>
+      <ol>
+        <li>Ordered List Item</li>
+        <li>Ordered List Item</li>
+        <li>Ordered List Item</li>
+      </ol>    
       <li>Unordered List Item</li>
     </ul>
  
