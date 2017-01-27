@@ -8,11 +8,17 @@ Being comfortable with these tools is fundamental, but of course there are bette
 
 Another useful command in Bash is `nano`, which is a very small and simple [hence the name!] text editor.
 
+Let's connect to our server.
 
 ```
 ssh -i ~/.ssh/identity.pem ubuntu@elasticIPaddress
 ```
-Let's connect to our server
+
+And then, let's move to our web directory.
+
+```
+cd /var/www/html
+```
 
 
 
