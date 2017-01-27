@@ -63,3 +63,5 @@ This is <strong>strong text</strong>.
 This is <s>stricken text</s>.
 <hr />
 
+
+These styles can all be replicated and improved with CSS styling.
