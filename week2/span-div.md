@@ -47,5 +47,43 @@ But, we can add styles to the divs and spans.
         </p>
     </div>
   </body>
-</html  
+</html>  
+```
+
+`<div>` and `<span>` are by a significant margin the most used html tags, especially when combined with *class* names.
+
+```
+<html>
+  <head>
+    <style>
+      .redText {
+      color:red
+      }
+      
+      .blueText {
+      color:blue
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="redText">
+        <p>
+            This is a paragraph tag within the <span style="color:magenta">first</span> div tag.
+        </p>
+    </div>
+    
+    <div class="redText">
+        <p>
+            This is a paragraph tag within the <span style="color:orange">first</span> div tag.
+        </p>
+    </div>
+    
+    <div class="blueText">
+        <p>
+            This is a paragraph tag within the <span style="color:teal">second</span> div tag.
+        </p>
+    </div>
+  </body>
+</html>  
 ```
