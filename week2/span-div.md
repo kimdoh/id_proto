@@ -38,12 +38,12 @@ But, we can add styles to the divs and spans.
   <body>
     <div style="color:red">
         <p>
-            This is a paragraph tag within the <span>first</span> div tag.
+            This is a paragraph tag within the <span style="color:pink">first</span> div tag.
         </p>
     </div>
     <div style="color:blue">
         <p>
-            This is a paragraph tag within the <span>second</span> div tag.
+            This is a paragraph tag within the <span style="color:cyan">second</span> div tag.
         </p>
     </div>
   </body>
