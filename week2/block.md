@@ -44,6 +44,9 @@ The `<body>` tag contains all of the visible parts of the webpage. Let's add som
     <p>
     This is some body text.
     </p>
+    <p>
+    This is some more body text.
+    </p>
   </body>
 </html>
 ```
@@ -52,7 +55,11 @@ This should render like this in a browser.
 
 <hr />
 <h1>Webpage Title</h1>
+
 This is some body text.
+
+This is some more body text.
+
 <hr />
 
 
