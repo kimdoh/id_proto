@@ -1,4 +1,4 @@
-###Positioning
+###Simple Positioning
 
 -----
 
@@ -59,5 +59,33 @@ We can move this rectangle around with some useful css positioning properties. T
   </style>
 </head>
 ```
-```
 
+Using different kinds of units in those `margin` properties allows for more flexiblity. For instance, we can use `%` units to specify the dimensions and positions of items relative to the *width* of the screen.
+
+
+```
+<html>
+<head>
+	
+	<style>
+		#positioning{
+			width:50px;
+			height:100px;        
+			border:1px solid darkgray;    
+			
+			margin-left:10%;
+			margin-top:20%;
+		}
+	</style>
+</head>
+
+<body>
+
+<div id="positioning"> 
+</div>
+
+</body>
+
+
+</html>
+```
