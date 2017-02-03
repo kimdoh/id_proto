@@ -32,12 +32,14 @@ In the head of the page, assign some styles so we can see the div.
   <style>
     #positioning{
         width:50px;
-				height:100px;
-				border:1px solid darkgray;    
+	height:100px;
+	border:1px solid darkgray;    
     }
   </style>
 </head>
 ```
+
+The syntax for the css `border` property shorthand used here is `border: strokeweight strokestyle color`. 
 
 You should now see a thin gray rectangle in the upper left corner of the page.
 
