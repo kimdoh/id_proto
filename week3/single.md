@@ -2,7 +2,7 @@
 
 -----
 
-Setup a basic html file.
+Setup a basic html file on your server and access it with your browser.
 
 ```
 <html>
