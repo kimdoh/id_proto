@@ -79,3 +79,5 @@ If we wanted to introduce some margins we could do easily do so.
 
 Combining the behavior of regular block elements, inheritance rules for positioning, and floated elements gives web designers tremendous expressiveness in shaping the layout of their sites. 
 
+There is one catch, though, in understanding the box model.
+
