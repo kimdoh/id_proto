@@ -53,8 +53,8 @@ We can move this rectangle around with some useful css positioning properties. T
 		height:100px;
 		border:1px solid darkgray;    
 		
-		left:100px;
-		top:20px;
+		margin-left:100px;
+		margin-top:20px;
 }
   </style>
 </head>
