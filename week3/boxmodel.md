@@ -81,3 +81,5 @@ This is *infuriating*. Luckily, there is an easy fix in your head `<style>` decl
 ```
 
 The `*` character is a *wildcard*, it matches all elements. The `box-sizing:border-box` property, now being inherited by everything on the page, forces the browser to calculate borders and padding inside of the set `width`.
+
+Now, let's use these skills to make a page construction resource called a [grid system](grid.md).
