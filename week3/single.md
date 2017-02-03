@@ -60,7 +60,7 @@ We can move this rectangle around with some useful css positioning properties. T
 </head>
 ```
 
-Using different kinds of units in those `margin` properties allows for more flexiblity. For instance, we can use `%` units to specify the dimensions and positions of items relative to the *width* of the screen.
+Using different kinds of units in those `margin` properties allows for more flexiblity. For instance, we can use `%` units to specify the dimensions and positions of items relative to the *width* of the item's parent -- in this case the browser screen itself.
 
 
 ```
@@ -89,3 +89,5 @@ Using different kinds of units in those `margin` properties allows for more flex
 
 </html>
 ```
+
+With this css in place, you can resize the page and see the rectangle change position depending on the width of the browser window.
