@@ -78,4 +78,13 @@ The `rel=` attribute, short for relationship, defines how the browser will incor
 
 The order is important here. If `<link rel="stylesheet" href="reset.css" />` was included below the `<style>` block in the `<head>` of your page, the reset styles would override the styles you set! Make sure you link your `reset.css` before any other styling.
 
+The browser takes css rules into account from a variety of sources.
+
+- Linked Stylesheets
+- Style Tags in the Head of the Page
+- Style Tags in the Body of the Page
+- Inline CSS
+
+The closer a rule is to the element it defines, the more power it has to override matching styles declared elsewhere.
+
 Now that we've reset the page, we can advance to floating elements.
