@@ -4,7 +4,32 @@
 
 With all of these lessons in place, we can construct a toolkit for building websites called a grid system. Grid systems allow easy and flexible construction of columns and rows of content based on simple ratios. Commonly, the page is divided up into 12 columns.
 
-We will assume in this example a .5% margin on both sides of each column to serve as the *gutter* between columns.
+We will assume in this example a .5% margin on both sides of each column to serve as the *gutter* between columns. This yields a 1% margin between all elements.
+
+The formula for calculating the values below is as follows.
+
+
+To calculate your one column width:
+
+```
+(100 - (n * 2m)) / n 
+
+n = desired column count
+m = margin
+
+```
+
+Take that value, and use it to create all other values.
+
+```
+w * n + ((n-1)*2m)
+
+w = column width calculated above
+n = desired column count
+m = margin
+```
+
+And here is the grid!
 
 ```
 <html>
