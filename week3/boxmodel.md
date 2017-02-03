@@ -2,7 +2,7 @@
 
 ------
 
-Due to historical complications, the `width` of any given element in html may or may not include different properties. For instance, the dimensions of `padding` and `border` properties, which sit outside the actual content of the element, are not included. Consider this example.
+Due to historical complications, the `width` of any given element in html may or may not include different properties. For instance, the dimensions of `padding` and `border` properties, which sit outside the actual content of the element, are not included. This means that [floated divs](float.md) might not behave how you expect. Consider this example.
 
 ```
 <html>
