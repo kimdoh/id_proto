@@ -134,4 +134,4 @@ After adding a second div, giving it styling, and assigning it the appropriate `
 
 Each block level element is *pushed down* a vertical level, and it defaults to sitting the left-side of the screen. This behavior can be changed, as we will do when we build a grid system.
 
-Let's move on to [nested div positioning](nest.md).
+Let's move on to [nested div positioning](nested.md).
