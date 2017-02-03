@@ -43,3 +43,21 @@ The syntax for the css `border` property shorthand used here is `border: strokew
 
 You should now see a thin gray rectangle in the upper left corner of the page.
 
+We can move this rectangle around with some useful css positioning properties. There are many options available, we'll focus on the standards.
+
+```
+<head>
+  <style>
+    #positioning{
+		width:50px;
+		height:100px;
+		border:1px solid darkgray;    
+		
+		left:100px;
+		top:20px;
+}
+  </style>
+</head>
+```
+```
+
