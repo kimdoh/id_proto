@@ -38,7 +38,7 @@ This is rarely the behavior we want. Instead, for nice page layouts, we often wa
 
 You should see three outlined rectangles, each roughly 30% of the width of the page. Each should be pushed up adjacent to the left-hand preceding div. Changing the styling to `float:right` would shove the divs to the upper-right corner of the browser.
 
-If we add a fourth `series` div, you will find that it is pushed down to the next line. Floating an element forces the element to do its best to move up and to the right or left (depending on your `float:` setting) so long as their is room. If there is not adequate space, its former block-level behavior kicks in and it moves down the flow of the page.
+If we add a fourth `series` div, you will find that it is pushed down to the next line. Floating an element forces the element to do its best to move up and to the right or left (depending on your `float:` setting) so long as there is room. If there is not adequate space, its former block-level behavior kicks in and it moves down the flow of the page.
 
 If we wanted to introduce some margins we could do easily do so.
 
