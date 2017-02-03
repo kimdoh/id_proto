@@ -2,9 +2,9 @@
 
 -----
 
-We saw how each subsequent block element we have used always pushes itself down below its predecessor. This behavior is easy to understand when we recall that block elements by default take up 100% of the width of their parent. By default, they stack!
+We saw how to [reset CSS](reset.md), and previously how each [subsequent block element](single.md) we have used always pushes itself down below its predecessor. This behavior is easy to understand when we recall that block elements by default take up 100% of the width of their parent. By default, they stack!
 
-This is rarely the behavior we want. Instead, for nice page layouts, we often want divs to be positioned next to one another. For this goal, we need a new css property: `float`. Floating removes the default 100% width, and allows a block-level element to shift up in the flow of the page.
+This is rarely the behavior we want when divs are narrower than the page width. Instead, for nice page layouts, we often want divs to be positioned next to one another. For this goal, we need a new css property: `float`. Floating removes the default 100% width, and allows a block-level element to shift up in the flow of the page.
 
 ```
 <html>
@@ -79,5 +79,5 @@ If we wanted to introduce some margins we could do easily do so.
 
 Combining the behavior of regular block elements, inheritance rules for positioning, and floated elements gives web designers tremendous expressiveness in shaping the layout of their sites. 
 
-There is one catch, though, in understanding the box model.
+There is one catch, though, in understanding the [box model](boxmodel.md).
 
