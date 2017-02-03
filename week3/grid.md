@@ -16,7 +16,6 @@ To calculate your one column width:
 
 n = desired column count
 m = margin
-
 ```
 
 Take that value, and use it to create all other values.
