@@ -60,7 +60,7 @@ We can move this rectangle around with some useful css positioning properties. T
 </head>
 ```
 
-Using different kinds of units in those `margin` properties allows for more flexiblity. For instance, we can use `%` units to specify the dimensions and positions of items relative to the *width* of the item's parent -- in this case the browser screen itself.
+Using different kinds of units in those `margin` properties allows for more flexiblity. For instance, we can use `%` units to specify the dimensions and positions of items relative to the *width* of the item's parent -- in this case the browser width itself.
 
 
 ```
@@ -90,4 +90,44 @@ Using different kinds of units in those `margin` properties allows for more flex
 </html>
 ```
 
-With this css in place, you can resize the page and see the rectangle change position depending on the width of the browser window.
+With this css in place, you can resize the page and see the rectangle change position depending on the width of the browser window. You can use the `vh` unit to specify a percentage of the vertical space.
+
+Other available proportional units include `em` and `rem`, which are values that are derived from the width of the styled typeface. We'll discuss this later when introducing responsive design.
+
+Let's see how positioning impacts the *flow* of subsequent elements on the page. 
+
+```
+<html>
+<head>
+	
+	<style>
+		
+		#positioning{
+			width:50px;
+			height:100px;
+			border:1px solid darkgray;    
+
+			margin-left:10%;
+			margin-top:20vh;
+		}
+
+		#follower{
+			width:50px;
+			height:100px;
+			border:1px solid darkgray;    
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+	<div id="positioning"> 
+	</div>
+	<div id="follower"> 
+	</div>
+
+</body>
+</html>
+```
