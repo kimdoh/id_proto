@@ -1,4 +1,4 @@
-You might have noticed a small margin running around elements positioned at `margin-left:0px;`. This is due to how browsers maintain default styles for most html elements, including the `<body>`.
+You might have noticed in the [last examples](nested.md) a small margin running around elements positioned at `margin-left:0px;`. This is due to how browsers maintain default styles for most html elements, including the `<body>`.
 
 This can be problematic, as this invisible padding can obstruct precise positioning. It is a best practice to strip out any unneeded default styling with a set of css rules, often called a *reset stylesheet*. 
 
@@ -87,4 +87,4 @@ The browser takes css rules into account from a variety of sources.
 
 The closer a rule is to the element it defines, the more power it has to override matching styles declared elsewhere.
 
-Now that we've reset the page, we can advance to floating elements.
+Now that we've reset the page, we can advance to [floating elements](float.md).
