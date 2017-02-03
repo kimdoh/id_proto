@@ -1,4 +1,4 @@
-###Nested Positioning
+###Nested Positioning and Centering
 
 -----
 
@@ -67,5 +67,47 @@ The converse is not true.
 ```
 
 This positions the child inside of the parent. Inheritance means properties only descend in the tag heirarchy, and never ascend. The child can be moved relative to its parent, just as the parent is moved relative to its parent — the body of the webpage.
+
+A common use case for nested divs is in centering content. Setting `margin-right:auto` and `margin-left:auto` on a child element with a set width will center it relative to its parent.
+
+```
+<html>
+<head>
+	
+	<style>
+		
+		#parent{
+			width:500px;
+			height:500px;
+			border:1px solid darkgray;    
+			margin-right:auto;
+			margin-left: auto;
+		}
+
+		#child{
+			width:50px;
+			height:50px;
+			border:1px solid cyan;    
+			margin-top:25px;
+			margin-right:auto;
+			margin-left: auto;
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+	<div id="parent"> 
+		<div id="child"> 
+		</div>
+	</div>
+</body>
+</html>
+```
+
+
+
 
 Now, let's do some housekeeping and reset our css.
