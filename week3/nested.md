@@ -98,7 +98,6 @@ A common use case for nested divs is in centering content. Setting `margin-right
 </head>
 
 <body>
-
 	<div id="parent"> 
 		<div id="child"> 
 		</div>
