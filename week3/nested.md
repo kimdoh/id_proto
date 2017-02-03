@@ -2,7 +2,7 @@
 
 -----
 
-Let's write similar html code to the last example. The only different is that, rather than having two divs in sequence, this example nests one div inside another.
+Let's write similar html code to the [simple positioning example](single.md). The only difference is that, rather than having two divs in sequence, this example nests one div inside another.
 
 ```
 <html>
@@ -106,7 +106,4 @@ A common use case for nested divs is in centering content. Setting `margin-right
 </html>
 ```
 
-
-
-
-Now, let's do some housekeeping and reset our css.
+Now, let's do some housekeeping and [reset our css](reset.md).
