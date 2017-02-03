@@ -98,17 +98,15 @@ Let's see how positioning impacts the *flow* of subsequent elements on the page.
 
 ```
 <html>
-<head>
-	
-	<style>
-		
+  <head>
+	<style>	
 		#positioning{
 			width:50px;
 			height:100px;
 			border:1px solid darkgray;    
 
 			margin-left:10%;
-			margin-top:20vh;
+			margin-top:10vh;
 		}
 
 		#follower{
@@ -119,15 +117,21 @@ Let's see how positioning impacts the *flow* of subsequent elements on the page.
 
 
 	</style>
-</head>
+  </head>
 
-<body>
+  <body>
 
 	<div id="positioning"> 
 	</div>
 	<div id="follower"> 
 	</div>
 
-</body>
+  </body>
 </html>
 ```
+
+After adding a second div, giving it styling, and assigning it the appropriate `id`, you should see in your browser window a set of rectanges. The first is positioned according to your values. The second should fall below it.
+
+Each block level element is *pushed down* a vertical level, and it defaults to sitting the left-side of the screen. This behavior can be changed, as we will do when we build a grid system.
+
+Let's move on to nested div positioning.
