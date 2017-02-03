@@ -1,3 +1,7 @@
+###Reset Default Styles
+
+-----
+
 You might have noticed in the [last examples](nested.md) a small margin running around elements positioned at `margin-left:0px;`. This is due to how browsers maintain default styles for most html elements, including the `<body>`.
 
 This can be problematic, as this invisible padding can obstruct precise positioning. It is a best practice to strip out any unneeded default styling with a set of css rules, often called a *reset stylesheet*. 
