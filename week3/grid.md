@@ -2,7 +2,7 @@
 
 -----
 
-With all of these lessons in place, we can construct a toolkit for building websites called a grid system. Grid systems allow easy and flexible construction of columns and rows of content based on simple ratios. Commonly, the page is divided up into 12 columns.
+With all of these lessons in place and a clear understanding of the [box model](boxmodel.md), we can construct a toolkit for building websites called a grid system. Grid systems allow easy and flexible construction of columns and rows of content based on simple ratios. Commonly, the page is divided up into 12 columns.
 
 We will assume in this example a .5% margin on both sides of each column to serve as the *gutter* between columns. This yields a 1% margin between all elements.
 
