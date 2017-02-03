@@ -70,6 +70,12 @@ And here is the grid!
 
 		}
 
+		.centered{
+			margin-left:auto;
+			margin-right:auto;
+			float:none;
+		}
+
 		.one{
 			width:7.333%;
 		}
@@ -123,9 +129,8 @@ And here is the grid!
 
 <body>
 
-  <div id="container"> 
-	
-    <div class="row">
+	<div id="container"> 
+		<div class="row">
 			<div class="col twelve"> </div>
 		</div>
 
@@ -187,9 +192,9 @@ And here is the grid!
 		<div class="row">
 			<div class="col twelve"> </div>
 		</div>
-
-  </div>
-
+	</div>
 </body>
+
+
 </html>
 ```
