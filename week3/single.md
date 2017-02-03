@@ -31,7 +31,7 @@ In the head of the page, assign some styles so we can see the div.
 <head>
   <style>
     #positioning{
-        width:50px;
+	width:50px;
 	height:100px;
 	border:1px solid darkgray;    
     }
