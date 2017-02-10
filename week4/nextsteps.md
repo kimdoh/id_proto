@@ -1,7 +1,7 @@
 ###Next Steps
 ---
 
-Much was accomplished [this week](readme.md). Our grid system was built, tested, and improved with responsive styles. And, we've brought in visual design.
+Much was accomplished [this week](readme.md). Our grid system was built, tested, and improved with responsive styles. And, we've brought visual elements into our designs through imagery and css properties.
 
 Next week, Javascript instruction will begin, allowing the design of dynamic content and interactive elements. In preparation for that, we need a few things in place.
 
@@ -19,6 +19,6 @@ By next week, please populate a folder on your server `blog` with an html file c
 
 All elements should nest inside of the divs you built for your responsive grid.
 
-Fill in *at least two duplicates* of that file with example content from data viz projects that you have found to be inspirational by next week.
+Fill in *at least two duplicates* of that file with example content from data viz projects that you have found to be inspirational, by next Friday.
 
-Check out [wirify](https://www.wirify.com) to peak into how blog designs you like are constructed out of gridded divs.
+Check out [wirify](https://www.wirify.com) to peak into how the blog designs that you like are constructed out of gridded divs.
