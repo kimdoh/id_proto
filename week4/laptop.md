@@ -2,7 +2,7 @@
 
 ---
 
-The laptop style rules bring in all elements, and allows for more display flexibility. 
+The [tablet style rules](tablet.md) still kept some elements hidden, but the laptop style bring everything in -- and allows for more display flexibility. 
 
 ```
 /* Laptops: Full, Half, Third, Quarter Widths */
@@ -28,5 +28,7 @@ The laptop style rules bring in all elements, and allows for more display flexib
 The laptop max breakpoint is `1px` less than the desktop `min-width` assigned earlier, so our grid flows nicely if a user resizes their browser on large displays.
   
 This covers all classes of devices with a general css breakpoint ruleset. However, depending on the design, these breakpoints should be changed to accomodate the needs of the specific layout. No two stylesheets will have the same breakpoints, and the breakpoints don't even need to correspond to device sizes! Let the layout of the content dictate the breakpoints.
+
+You can view the [complete html document](complete.md).
 
 Now, as a last step, let's leave text behind and [add some images](image.md) to our nascent websites.
