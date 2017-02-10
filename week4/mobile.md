@@ -26,6 +26,6 @@ Again, let's add some CSS code to the `style` block within the `head` of the pag
 
 Again, we ask the browser to report how big its viewport is. In this case, if the browser returns any size bigger than `320px` *and* smaller than `479px`, these style are applied to the elements on the page.
 
-Note that we have added `display:none` to `col` divs smaller than `.six`. This allows us to hide divs and their contents on smaller devices!
+Note that we have added `display:none` to `col` divs smaller than `.six`. This allows us to hide divs and their contents on smaller devices! We change our background color to a pale red, and only allow `col` divs at half and full width.
 
 Now, let's add some styles for [larger phones and tablets](tablet.md). 
