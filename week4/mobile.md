@@ -28,4 +28,6 @@ Again, we ask the browser to report how big its viewport is. In this case, if th
 
 Note that we have added `display:none` to `col` divs smaller than `.six`. This allows us to hide divs and their contents on smaller devices! We change our background color to a pale red, and only allow `col` divs at half and full width.
 
+We now have content that looks much better on small mobile screens. The visitors to our sites should get a designed experience regardless of their device -- this is called *responsive design*.
+
 Now, let's add some styles for [larger phones and tablets](tablet.md). 
