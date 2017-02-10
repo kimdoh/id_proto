@@ -12,13 +12,13 @@ By next week, please populate a folder on your server `blog` with an html file c
 - Publish Date 
 - Banner Image 
 - Body Text
-- Gallery
-- Scripted Image Container (to hold visualization)
+- Hero Image (to hold visualizations later)
+- Gallery of Thumbnail Images
 - Tags
 - Citation Link
 
-All elements should nest inside of the divs you built for your responsivbe grid.
+All elements should nest inside of the divs you built for your responsive grid.
 
-Fill in *at least two duplicates* of that file with example content from data viz projects that you have found to be inspirational. 
+Fill in *at least two duplicates* of that file with example content from data viz projects that you have found to be inspirational by next week.
 
 Check out [wirify](https://www.wirify.com) to peak into how blog designs you like are constructed out of gridded divs.
