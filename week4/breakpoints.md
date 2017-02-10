@@ -4,16 +4,36 @@
 
 Because we have been using `%` units in our CSS for object width, our pages are naturally responsive to changes in browser size. There are some other steps we can take to make our page more performant on different screen sizes and proportions.
 
-CSS enables the designer to assign rules that apply only *within specific device size*.
+CSS enables the designer to assign rules that apply only within specific device size, called *breakpoints*.
+
+First, let's change a CSS rule to make our breakpoints more understandable.
+
+```
+        #container{
+            width:100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+ ```
+
+Our grid system example now takes up the entire width of its parent, the `body` of our page.
 
 Let's begin with a simple breakpoint by adding the following to the css in the `head` of the page. 
 
-
 ```
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-  #container{ 
-      width:1080px;
-      background-color:#eee;
-}
+        @media only screen and (min-width : 1240px) {
+
+          #container{ 
+              width:1240px;
+              background-color:#dee;
+          }
 ```
+
+This is called a *media query*. It defines two variables: a kind of device, and a condition. Here, we are isolating `screen` type devices from alternatives such as `print` and `speech` (which is very important for accessiblity and emergent conversational interaction paradigms, and will be explained in detail soon).
+
+The condition part is more complicated. We are asking the device our browser to let our page know when it has a width, at minimum, of `1240px`. When that condition is triggered (either by resizing the browser or being loaded on a large screen) the css rules included within the braces are triggered. Here, we are adding a slight cyan background tint and forcing our page to not go wider than `1240px`. 
+
+Rules for large screens like this are important so that our lines of text do not become too long to be easily tracked by our gaze.
+
+Now, let's address the opposite problem: small [mobile screens](mobile.mds).
