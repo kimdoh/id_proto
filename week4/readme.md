@@ -6,6 +6,7 @@ The massive growth of mobile device usage has required web designers and develop
 
 - [Tweaks](tweaks.md)
 - [Breakpoints](breakpoints.md)
-- [Desktop](desktop.md)
 - [Mobile](mobile.md)
 - [Tablet](tablet.md)
+- [Laptop](laptop.md)
+- [Complete Grid System](complete.md)
