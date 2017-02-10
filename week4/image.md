@@ -26,7 +26,7 @@ Now, to include an image in html.
 
 Note again, a self-closing tag. All we need to do is specify a path and filename and the image can be dropped into any other tag on your website.
 
-`<img>` behave similarly to inline elements. They flow like text if place within text, but they can have width and height values associated as well.
+`<img>` behave similarly to inline elements. They flow like text if place within text, but they can have width and height values associated as well like block elements. For this reason, they are called *inline-block* elements.
 
 
 
