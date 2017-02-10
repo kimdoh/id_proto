@@ -10,3 +10,5 @@ The massive growth of mobile device usage has required web designers and develop
 - [Tablet](tablet.md)
 - [Laptop](laptop.md)
 - [Complete Grid System](complete.md)
+- [Uploading Images](image.md)
+- [Next Steps](nextsteps.md)
