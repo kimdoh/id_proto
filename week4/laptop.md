@@ -23,7 +23,10 @@ The laptop style rules bring in all elements, and allows for more display flexib
       .eleven { width:82.333%; }
       .twelve { width:99%; }
   }
+  ```
   
-  The laptop max breakpoint is `1px` less than the desktop `min-width` assigned earlier, and so our grid flows nicely on browser resizing on large displays.
+The laptop max breakpoint is `1px` less than the desktop `min-width` assigned earlier, so our grid flows nicely if a user resizes their browser on large displays.
   
-  We're done!
+This covers all classes of devices with a general css breakpoint ruleset. However, depending on the design, these breakpoints should be changed to accomodate the needs of the specific layout. No two stylesheets will have the same breakpoints, and the breakpoints don't even need to correspond to device sizes! Let the layout of the content dictate the breakpoints.
+
+Now, as a last step, let's leave text behind and [add some images](image.md) to our nascent websites.
