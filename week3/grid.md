@@ -25,7 +25,7 @@ Take that value, and use it to create all other values.
 w * n + ((n-1)*2m)
 
 w = column width calculated above
-n = desired column count
+n = desired column (if you want col.three, use '3')
 m = margin
 ```
 
