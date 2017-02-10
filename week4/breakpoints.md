@@ -32,7 +32,7 @@ Let's begin with a simple breakpoint by adding the following to the css in the `
 
 This is called a *media query*. It defines two variables: a kind of device, and a condition. Here, we are isolating `screen` type devices from alternatives such as `print` and `speech` (which is very important for accessiblity and emergent conversational interaction paradigms, and will be explained in detail soon).
 
-The condition part is more complicated. We are asking the device our browser to let our page know when it has a width, at minimum, of `1240px`. When that condition is triggered (either by resizing the browser or being loaded on a large screen) the css rules included within the braces are triggered. Here, we are adding a slight cyan background tint and forcing our page to not go wider than `1240px`. 
+The condition part is more complicated. We are asking the device and browser to let our page know when it has a width, at minimum, of `1240px`. When that condition is triggered (either by resizing the browser or being loaded on a device with a large resolution screen) the css rules included within the braces are triggered. Here, we are adding a slight cyan background tint and forcing our page to not go wider than `1240px`. 
 
 Rules for large screens like this are important so that our lines of text do not become too long to be easily tracked by our gaze.
 
