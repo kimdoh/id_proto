@@ -48,4 +48,6 @@ filter: blur(15px);
 filter: contrast(150%);
 filter: hue-rotate(90deg);
 }
-``
+```
+
+[Next steps and homework](nextsteps.md)
