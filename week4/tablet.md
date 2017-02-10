@@ -1,6 +1,6 @@
-### Large Mobile Phones, Tablets, and Small Laptops
+### Large Mobile Phones and Tablets
 
-This is a wide class of devices with huge variations in interaction. For instance, some will have stylus inputs, otherwise will have reorientable displays, and many are portable. We want our grid system to look good and be usable throughout the diverse class. 
+[Mobile devices](mobile.md) are fairly homogenous, but this is a wide class of devices with huge variations in interaction. For instance, some will have stylus inputs, others will have reorientable displays, kickstands, or hardware keyboards -- and many are portable. We want our grid system to look good and be usable throughout the diverse class. 
 
 ```
 /*Large Mobile Styles: Full, Half, Third Widths*/
@@ -39,5 +39,6 @@ This is a wide class of devices with huge variations in interaction. For instanc
   }
   ```
 
-Here, again, some elements remain hidden with `display:none` and others are resized to accomodate specific layout needs.
+Here, again, some elements remain hidden with `display:none` and others are resized and simplified to accomodate specific layout needs.
 
+Let's move on to [small laptop styles](laptop.md).
