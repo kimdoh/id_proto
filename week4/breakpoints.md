@@ -2,7 +2,7 @@
 
 ---
 
-Because we have been using `%` units in our CSS for object width, our pages are naturally responsive to changes in browser size. There are some other steps we can take to make our page more performant on different screen sizes and proportions.
+Because we have been using `%` units in our CSS for object width, our tweaked [grid system page](tweaks.md) is naturally responsive to changes in browser size. There are some other steps we can take to make our page more performant on different screen sizes and proportions.
 
 CSS enables the designer to assign rules that apply only within specific device size, called *breakpoints*.
 
