@@ -21,10 +21,12 @@ Easy!
 Now, to include an image in html.
 
 ```
-<img src="path/name.jpg" />
+<img src="path/name.jpg" alt="description" title="tooltip"/>
 ```
 
 Note again, a self-closing tag. All we need to do is specify a path and filename and the image can be dropped into any other tag on your website.
+
+Adding a `title` is optional -- it will show up if a user hovers over the image with their mouse pointer.
 
 ---
 ####A very important note!
