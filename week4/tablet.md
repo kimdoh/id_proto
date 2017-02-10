@@ -41,4 +41,4 @@
 
 Here, again, some elements remain hidden with `display:none` and others are resized and simplified to accomodate specific layout needs.
 
-Let's move on to [small laptop styles](laptop.md).
+Let's move on to [laptop styles](laptop.md).
