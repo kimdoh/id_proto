@@ -9,4 +9,11 @@ CSS enables the designer to assign rules that apply only *within specific device
 Let's begin with a simple breakpoint by adding the following to the css in the `head` of the page. 
 
 
-
+```
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  #container{ 
+      width:1080px;
+      background-color:#eee;
+}
+```
