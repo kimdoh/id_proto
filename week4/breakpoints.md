@@ -37,4 +37,4 @@ The condition part is more complicated. We are asking the device and browser to 
 
 Rules for large screens like this are important so that our lines of text do not become too long to be easily tracked by our gaze.
 
-Now, let's address the opposite problem: small [mobile screens](mobile.mds).
+Now, let's address the opposite problem: small [mobile screens](mobile.md).
