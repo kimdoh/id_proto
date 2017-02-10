@@ -290,6 +290,21 @@ This example scales fluidly on all browser sizes and devices. But, if you view t
 </html>
 ```
 
-Note the few problems we can identify. Since the `col` divs have a set `height` in the css declaration, the grid columns do not expand to match their content. Worse still, when a word is too long, it overflows its container. 
+Note the few problems we can identify. Since the `col` divs have a set `height` in the css declaration, the grid columns do not expand to match their content. Worse still, when a word is too long, it overflows its container. Let's fix that by making a change to the `.col` CSS declaration.
+
+```
+ .col{
+            background-color: lightgray;            
+            float:left;
+            min-height:50px;
+            margin-left:.5%;
+            margin-right:.5%;
+            margin-top:.5%;
+            margin-bottom:.5%;
+            overflow:scroll;
+        }
+```
+
+Two changes to note. `min-height` rather than `height` allows our divs to still take up vertical space on the page. If there is long content, our divs will swell vertically to contain it, but we still have words that expand horizontally outsider their bounds. Of course, this could be solved by using `col two`, but we can also use the `overflow` property to either hide any amount of horizontally overflowing text with `overflow:hidden` or, usually better, make it scrollable with `overflow:scroll`.
 
 
