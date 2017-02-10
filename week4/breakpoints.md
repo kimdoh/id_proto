@@ -1,10 +1,8 @@
-###Adding CSS Breakpoints
+###Small Improvements
 
 ---
 
-Because we have been using `%` units in our CSS for object width, our pages are naturally responsive to changes in browser size. There are some other steps we can take to make our page more performant on different screen sizes and proportions.
-
-CSS enables the designer to assign rules that apply only *within specific device size*.
+The 12 column grid system we have built out works well, but there are some small tweaks we can make to handle our content more seamlessly.
 
 Returning to our simple gridsystem example, with the CSS compressed a bit. Make sure you have a `reset.css` in the same folder as this file.
 
@@ -305,6 +303,8 @@ Note the few problems we can identify. Since the `col` divs have a set `height` 
         }
 ```
 
-Two changes to note. `min-height` rather than `height` allows our divs to still take up vertical space on the page. If there is long content, our divs will swell vertically to contain it, but we still have words that expand horizontally outsider their bounds. Of course, this could be solved by using `col two`, but we can also use the `overflow` property to either hide any amount of horizontally overflowing text with `overflow:hidden` or, usually better, make it scrollable with `overflow:scroll`.
+Two changes to note. `min-height` rather than `height` allows our divs to still take up vertical space on the page even though they have no content. And, if there is long content, our divs will swell vertically to contain it like normal html elements. 
+
+But we still have words that expand horizontally outsider their bounds. Of course, this could be solved by using `col two`, but we can also use the `overflow` property to either hide any amount of horizontally overflowing text with `overflow:hidden;` or, usually better, make it scrollable with `overflow:scroll;`.
 
 
