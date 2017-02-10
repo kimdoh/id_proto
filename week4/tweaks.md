@@ -307,4 +307,4 @@ Two changes to note. `min-height` rather than `height` allows our divs to still 
 
 But we still have words that expand horizontally outsider their bounds. Of course, this could be solved by using `col two`, but we can also use the `overflow` property to either hide any amount of horizontally overflowing text with `overflow:hidden;` or, usually better, make it scrollable with `overflow:scroll;`.
 
-
+With these tweaks in place, let's advance to [adding our first css breakpoint].
