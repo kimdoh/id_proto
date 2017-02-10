@@ -12,8 +12,9 @@ The formula for calculating the values below is as follows.
 To calculate your one column width:
 
 ```
-(100 - (n * 2m)) / n 
+(p - (n * 2m)) / n 
 
+p = parent width (use '100' for percentage-based calculations)
 n = desired column count
 m = margin
 ```
