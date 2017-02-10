@@ -5,7 +5,7 @@
 The [tablet style rules](tablet.md) still kept some elements hidden, but the laptop style bring everything in -- and allows for more display flexibility. 
 
 ```
-/* Laptops: Full, Half, Third, Quarter Widths */
+/* Laptops: Full, Half, Third, Quarter, Sixth Widths */
  @media only screen 
  and (min-width : 1024px) 
  and (max-width : 1223px) {
