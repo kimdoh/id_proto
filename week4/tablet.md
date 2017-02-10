@@ -1,5 +1,7 @@
 ### Large Mobile Phones, Tablets, and Small Laptops
 
+This is a wide class of devices with huge variations in interaction. For instance, some will have stylus inputs, otherwise will have reorientable displays, and many are portable. We want our grid system to look good and be usable throughout the diverse class. 
+
 ```
 /*Large Mobile Styles: Full, Half, Third Widths*/
 @media only screen and (min-width : 480px) and (max-width : 767px) {
@@ -36,3 +38,6 @@
       .twelve { width:99%; }
   }
   ```
+
+Here, again, some elements remain hidden with `display:none` and others are resized to accomodate specific layout needs.
+
