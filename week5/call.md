@@ -37,3 +37,5 @@ The `data-binding` attribute of our script allows us to reuse the literal `posts
 ```
 
 The `forEach` will execute once per returned javascript object. In this case, it will execute once for each `post` in the Prismic interface. We use ejs.js brackets to intermix calls for specific prismic information with literals and html structure.
+
+[Next steps](nextsteps.md)
