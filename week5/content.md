@@ -6,7 +6,7 @@ Be careful with `uid`s. These cannot begin with a number or special character, a
 
 Make sure you *publish* the content before moving on.
 
-Let's return to [writing some code](base.html) to setup our page.
+Let's return to [writing some code](base.md) to setup our page.
 
 
 
