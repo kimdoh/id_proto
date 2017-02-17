@@ -29,7 +29,7 @@ The `data-binding` attribute of our script allows us to reuse the literal `posts
       <h2>[%= post.getText('post.title') %]</h2>
       <img data-src="[%= post.getImageView('post.hero', 'main').url %]">
       <p>
-      [%= post.getText("post.body") %]
+           [%= post.getText("post.body") %]
       </p>
       <hr />
     </div>
