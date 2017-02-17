@@ -6,5 +6,5 @@ In the Custom Post Type editor, use the builder to pull-in what kinds of content
 
 When defining `title`, you can allow only `<h1>` elements to automatically apply some formatting when this content is injected into the page.
 
-Ensure that this is a *repeatable* post type so that we can have many instances of it within the Prismic interface.
+Ensure that this is a *repeatable* post type so that we can have many instances of it within the Prismic interface. In the future, we will setup *single* post types, which exist exactly once. For instance, your `about` page.
 
