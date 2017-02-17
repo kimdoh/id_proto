@@ -10,7 +10,7 @@ Pulling down data from your Prismic.io API is really easy.
 
   <title>Basic Prismic Setup</title>
   
-  <meta name="prismic-api" content="https://zap-blog-test.prismic.io/api">
+  <meta name="prismic-api" content="https://##########.prismic.io/api">
 
   <script src="js/ejs-1.0.js"></script>
   <script src="js/prismic.io-1.0.10.min.js"></script>
