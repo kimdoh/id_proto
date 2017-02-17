@@ -2,7 +2,7 @@
 
 ---
 
-Pulling down data from your Prismic.io API is really easy.
+Pulling down [your content](content.md) from your Prismic.io API is really easy. But first we need a shell to hold it.
 
 ```
 <html>
@@ -32,4 +32,4 @@ These files can be found below. Make sure you place them in a `js` directory.
 
 The most important line here is the new `<meta>` tag, which is used to embed important information for other web services. Please replace that with a link to your Prismic repository's api.
 
-
+We can now [reach out](call.md) to the Primic api.
