@@ -18,4 +18,4 @@ But, moving forward, these large, immovable systems are not forward-looking. Ser
 
 These services are called *headless* CMS systems. We use these systems' websites to construct our content, and they masquerade as APIs with a structured query language. We request our content from their servers, and inject it into our layouts.
 
-Let's set an account up on [Prismic.io](http://www.prismic.io) to see how this new system works.
+Let's [set an account](account.md) up on [Prismic.io](http://www.prismic.io) to see how this new system works.
