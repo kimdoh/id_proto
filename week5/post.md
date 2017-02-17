@@ -8,3 +8,5 @@ When defining `title`, you can allow only `<h1>` elements to automatically apply
 
 Ensure that this is a *repeatable* post type so that we can have many instances of it within the Prismic interface. In the future, we will setup *single* post types, which exist exactly once. For instance, your `about` page.
 
+Now, let's [fill in some posts](content.md).
+
