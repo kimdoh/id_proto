@@ -6,4 +6,5 @@
 - [Account](account.md)
 - [Post Definition](post.md)
 - [Adding Content](content.md)
-- [Uploading Files](upload.md)
+- [HTML Base](base.md)
+- [Prismic Calls](call.md)
