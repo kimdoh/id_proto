@@ -2,6 +2,8 @@
 
 ---
 
+Let's talk *content management*.
+
 - [Concept](concept.md)
 - [Account](account.md)
 - [Post Definition](post.md)
